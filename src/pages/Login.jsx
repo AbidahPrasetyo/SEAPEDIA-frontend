@@ -84,8 +84,11 @@ export default function Login() {
             {isLoading ? 'Memeriksa...' : 'Log In Sekarang'}
           </button>
         </form>
-        
-        <div className="mt-6 text-center">
+
+        <div className="mt-6 text-center space-y-2 flex flex-col">
+          <p className="text-sm text-gray-500">
+            Belum punya akun? <Link to="/register" className="font-bold text-blue-600 hover:underline">Daftar di sini</Link>
+          </p>
           <Link to="/" className="text-sm font-bold text-gray-400 hover:text-blue-600 transition-all">Kembali ke Katalog</Link>
         </div>
       </div>
