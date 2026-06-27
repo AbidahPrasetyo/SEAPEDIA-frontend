@@ -126,7 +126,7 @@ export default function Dashboard() {
     navigate('/');
   };
 
-  if (loading || !profile) return <div className="min-h-screen bg-gray-50 flex justify-center items-center text-xl animate-pulse text-blue-600">Menyelaraskan data pelabuhan...</div>;
+  if (loading || !profile) return <div className="min-h-screen bg-gray-50 flex justify-center items-center text-xl animate-pulse text-blue-600">Memuat data...</div>;
 
   return (
     <div className="flex h-screen bg-gray-50 overflow-hidden">

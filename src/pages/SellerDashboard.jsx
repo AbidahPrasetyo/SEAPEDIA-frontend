@@ -111,7 +111,7 @@ export default function SellerDashboard() {
     Swal.fire('Tutup Kedai', 'Berhasil keluar dari Dasbor Penjual.', 'success').then(() => navigate('/'));
   };
 
-  if (loading) return <div className="min-h-screen flex justify-center items-center text-blue-600 animate-pulse font-bold text-xl">Membuka gerbang pelabuhan...</div>;
+  if (loading) return <div className="min-h-screen flex justify-center items-center text-blue-600 animate-pulse font-bold text-xl">Memuat data...</div>;
 
   if (!store) {
     return (

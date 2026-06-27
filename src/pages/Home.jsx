@@ -121,7 +121,7 @@ export default function Home() {
 
       {loading ? (
         <div className="flex justify-center items-center py-20">
-          <p className="text-xl font-bold animate-pulse text-blue-600">Menyelami data produk dari samudra...</p>
+          <p className="text-xl font-bold animate-pulse text-blue-600">Memuat data produk</p>
         </div>
       ) : (
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">

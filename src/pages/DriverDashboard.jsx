@@ -92,7 +92,7 @@ export default function DriverDashboard() {
     Swal.fire('Shift Berakhir', 'Selamat beristirahat, Kapten.', 'success').then(() => navigate('/'));
   };
 
-  if (loading) return <div className="min-h-screen flex justify-center items-center text-blue-600 animate-pulse font-bold text-xl">Memuat Dasbor...</div>;
+  if (loading) return <div className="min-h-screen flex justify-center items-center text-blue-600 animate-pulse font-bold text-xl">Memuat...</div>;
 
   return (
     <div className="flex h-screen bg-gray-50 overflow-hidden">

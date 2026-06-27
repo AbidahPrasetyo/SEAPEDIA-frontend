@@ -100,7 +100,7 @@ export default function AdminDashboard() {
     Swal.fire('Sistem Terkunci', 'Log akses Admin ditutup.', 'info').then(() => navigate('/'));
   };
 
-  if (loading) return <div className="min-h-screen flex justify-center items-center text-blue-600 animate-pulse font-bold text-xl">Membuka Akses Pusat...</div>;
+  if (loading) return <div className="min-h-screen flex justify-center items-center text-blue-600 animate-pulse font-bold text-xl">Membuka Akses...</div>;
 
   return (
     <div className="flex h-screen bg-gray-50 overflow-hidden">
